@@ -1,0 +1,9 @@
+digraph "Call graph: hellopass/test.bc" {
+	label="Call graph: hellopass/test.bc";
+
+	Node0x55de580d9df0 [shape=record,label="{hello}"];
+	Node0x55de580d9df0 -> Node0x55de580d9ea0;
+	Node0x55de580d9ea0 [shape=record,label="{printf}"];
+	Node0x55de580d9fb0 [shape=record,label="{main}"];
+	Node0x55de580d9fb0 -> Node0x55de580d9df0;
+}

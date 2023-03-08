@@ -1,0 +1,3 @@
+[always]
+fun:main
+fun:hello
