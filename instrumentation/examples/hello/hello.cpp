@@ -4,13 +4,6 @@ void hello() {
     printf("Hello.\n");
 }
 
-void hook(void (*f)()){
-  if (f){
-    (*f)();
-  }
-}
-
-
 void bye() {
     int a =1 ;
     int b =2 ;
@@ -19,7 +12,7 @@ void bye() {
     hello();
 }
 
-int main() {
-    bye();
-    hello();
-}
+// int main() {
+//     bye();
+//     hello();
+// }
