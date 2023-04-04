@@ -137,7 +137,8 @@ public:
     if (branch >= 0) {
       conditionBlocks.push(bb);
       // report_dbginfo(bb);
-      report_condition(bb, branch);
+      // report_condition(bb, branch);
+      dbgs() << demangle(bb->getParent()->getName().data())<<"\n";
     }
 
     /*Recursively traverse the cfg, start from bb, reversly*/
